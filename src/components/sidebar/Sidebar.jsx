@@ -1,7 +1,7 @@
 import React from 'react'
 import "./sidebar.css"
 import {AccountCircle, CurrencyPound, Email, Feedback, Inventory, LineStyle,Message,ReportGmailerrorred,Timeline,TrendingUp, Work} from '@mui/icons-material';
-import { BarChart } from 'recharts';
+// import { BarChart } from 'recharts';
 
 export default function Sidebar() {
   return (
@@ -40,10 +40,7 @@ export default function Sidebar() {
               <CurrencyPound className='sidebarIcon' />
               Transactions
             </li>
-            <li className="sidebarListItem">
-              <BarChart className='sidebarIcon' />
-              Reports
-            </li>
+            
           </ul>
         </div>
 
